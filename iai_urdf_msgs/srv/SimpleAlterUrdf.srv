@@ -1,0 +1,15 @@
+# request constants
+int8 ADD=1
+int8 REMOVE=2
+
+# request fields
+
+# action ADD or REMOVE
+int8 action
+
+# name of the parameter that contains the xml description of the parts
+string parameter
+
+---
+#response fields
+bool success
