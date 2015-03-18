@@ -1,0 +1,15 @@
+#request constants
+int8 ADD=1
+int8 REMOVE=2
+#request fields
+int8 action
+#path to urdf
+string urdf
+# descritpion of the joint that should connect the urdf with the robot description
+# only used if action is ADD
+string joint_description
+# prefix for the links and joints of the urdf
+string prefix
+---
+#response fields
+bool success

@@ -7,6 +7,7 @@ add_service_files(
   FILES
   AlterUrdf.srv
   SimpleAlterUrdf.srv
+  UrdfAlterUrdf.srv
 )
 
 generate_messages(
